@@ -113,7 +113,7 @@ span{
 /*hero section*/
 .hero-section{
     background-image: url("/images/hero_image.jpg");
-    height: 500px;
+    height: 370px;
     background-size: cover;
     background-position: center ;
     display: flex;
@@ -129,13 +129,109 @@ span{
     align-items: center;
     font-size: 0.85rem;
     width: 80%;
-    margin-bottom: 180px;
+    margin-bottom: 60px;
 }
 .hero-msg a{
     color: #007185;
 }
 /*Shop section*/
-
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    margin-top: 15px;
+    height: 380px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+}
+/*Footer*/
+footer{
+    margin-top: 15px;
+}
+/*Panel1*/
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+/*Panel2*/
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 30px;
+}
+ul p{
+    margin-left: 10px;
+    font-weight: 600;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    margin: 10px;
+    color: #dddddd;
+}
+/*Panel3*/
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("/images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px ;
+}
+/*Panel4*/
+.foot-panel4{
+    background-color: #0f1111;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+}
+.pages{
+    padding-top: 25px;
+}
+.pages a{
+    text-decoration: none;
+    color: white;
+}
+.copyright{
+    padding-top: 7px;
+}
 /*Utility class*/
 .border{
     border: 2px solid transparent;
@@ -143,7 +239,4 @@ span{
 .border:hover{
     border: 1.5px solid white;
 }
-.box{
-    border: 2px solid black;
-    height: 100px;
-}
+
