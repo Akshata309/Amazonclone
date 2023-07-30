@@ -134,10 +134,16 @@ span{
 .hero-msg a{
     color: #007185;
 }
+/*Shop section*/
+
 /*Utility class*/
 .border{
     border: 2px solid transparent;
 }
 .border:hover{
     border: 1.5px solid white;
+}
+.box{
+    border: 2px solid black;
+    height: 100px;
 }
